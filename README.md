@@ -3,11 +3,13 @@ Code pour le robot 2020
 
 # Branches:
 
--Release: Dernière version fonctionnelle et officiel du code pour le robot
--Test: Version à tester physiquement avant d'envoyer en production
--Master: branche des mentors/branche officiel de développement
--Élève: branche pour pratique ou tests par les élèves
+- Master: Dernière version fonctionnelle et officiel du code pour le robot
+- Test: Version à tester physiquement avant d'envoyer en production
+- Dev: branche des mentors/branche officiel de développement
+- Élève: branche pour pratique ou tests par les élèves
 
 # Trucs
 
--Avant de commencer à faire des tests sur élèves, il est conseiller de synchroniser avec master
+- Avant de commencer à faire des tests/modifs, assurez de synchroniser avec master
+- Faire un pull request sur la branche Dev quand vous voulez submit un changement
+- Vous devez référencer la librairie du repo 5443_FRC_Labview_lib dans votre code pour pouvoir avoir accès à ces VIs, NE PAS pousser de changement sur les références aux VIs.
